@@ -1,6 +1,6 @@
 total_increases = 0
 
-with open('day_1/measurements.txt') as f:
+with open('./measurements.txt') as f:
     lines = f.read().splitlines()
 
     for index, item in enumerate(lines[0:]):
